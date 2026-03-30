@@ -1,0 +1,41 @@
+                            STRING METHOD
+
+
+   Method	                    Description
+1. upper()	      Converts all characters in a string to uppercase.
+2. lower()	      Converts all characters in a string to lowercase.
+3. strip()	      Removes leading and trailing whitespaces or specified characters from a string.
+4. rstrip()	      Removes trailing whitespaces or specified characters from a string.
+5. replace()      Replaces all occurrences of a substring with another substring.
+6. split()	      Splits a string into a list based on a specified separator (default is whitespace).
+7. capitalize()	  Capitalizes the first character of a string and converts the rest to lowercase.
+8. center()	      Centers a string by padding it with specified characters (default is spaces).
+9. count()	      Returns the number of times a specified value occurs in a string.
+10.endswith()	  Checks if a string ends with a specified suffix.
+11.startswith()	  Checks if a string starts with a specified prefix.
+12.find()	      Returns the first index of a specified value in a string, or -1 if not found.
+13.index()	      Returns the first index of a specified value in a string, raises an error if not found.
+14.isalnum()	  Checks if all characters in a string are alphanumeric.
+15.isdigit()	  Checks if all characters in a string are digits.
+16.isalpha()	  Checks if all characters in a string are alphabetic.
+17.islower()	  Checks if all characters in a string are lowercase.
+18.isupper()	  Checks if all characters in a string are uppercase.
+19.isprintable()  Checks if all characters in a string are printable.
+20.isspace()	  Checks if a string contains only whitespace characters.
+21.istitle()	  Checks if the string is title-cased (first letter of each word uppercase, rest lowercase).
+22.swapcase()	  Swaps the case of all characters in the string (lowercase to uppercase and vice versa).
+23.title()        Converts the first character of each word to uppercase and the rest to lowercase.
+
+
+Methods Based on Arguments:
+
+Methods That Take No Arguments: [13]
+upper(), lower(), capitalize(), isalnum(), isdigit(), isalpha(), islower(), 
+isupper(), isprintable(), isspace(), istitle(), swapcase(), title().
+
+
+Methods That Take One Required Argument:
+strip(character), rstrip(character), replace(old, new, [count])
+split(separator, [maxsplit]), center(width, [fillchar]), count(value, [start], [end])
+endswith(suffix, [start], [end]), startswith(prefix, [start], [end])
+find(value, [start], [end]), index(value, [start], [end]).

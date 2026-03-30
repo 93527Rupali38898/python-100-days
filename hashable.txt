@@ -1,0 +1,17 @@
+An object is hashable if it has a fixed hash value during its lifetime (i.e., its hash doesn’t change) and can be used as a key in a dictionary or as an element in a set.
+
+
+int		    ✅	Immutable
+float	    ✅	Immutable
+str		    ✅	Immutable
+bool	    ✅	Immutable
+tuple	    ✅	All elements inside are immutable
+frozenset	✅	Immutable version of set
+None	    ✅	Immutable singleton
+
+
+| Type   | Example     | Hashable? | Reason                            |
+| ------ | ----------- | --------- | --------------------------------- |
+| `list` | `[1, 2, 3]` | ❌         | Mutable (can change elements)     |
+| `set`  | `{1, 2, 3}` | ❌         | Mutable (can add/remove elements) |
+| `dict` | `{'a': 1}`  | ❌         | Mutable (can change keys/values)  |

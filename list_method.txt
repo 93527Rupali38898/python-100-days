@@ -1,0 +1,41 @@
+                            LIST METHODS
+
+Method	                Description
+1. append()	  Adds a single element to the end of the list.
+2. clear()	  Removes all elements from the list.
+3. copy()	  Returns a shallow copy of the list.
+4. count()	  Returns the number of occurrences of a specified element.
+5. extend()	  Appends elements of an iterable (list, tuple, etc.) to the end of the list.
+6. index()	  Returns the index of the first occurrence of a specified value.
+7. insert()	  Inserts an element at the specified position.
+8. pop()	  Removes and returns the element at the specified position
+              (default: last element).
+9. remove()	  Removes the first occurrence of the specified element.
+10.reverse()  Reverses the order of the list in place.
+11.sort()	  Sorts the list in ascending order by default.
+
+
+Methods That Take No Arguments  [3]
+clear(), copy(), reverse()
+
+Methods That Take One Required Argument [3]
+append(item), count(item), remove(item)
+
+Methods That Take One Required Argument and Optional Parameters [3]
+pop(index=-1), index(item, start=0, end=len(list)), sort(key=None, reverse=False)
+
+Methods That Take Two Required Arguments    [1]
+insert(index, item)
+
+Methods That Take Iterables as Arguments    [1]
+extend(iterable)
+
+
+
+                        Difference Between pop, del and remove
+Function            Scenario	
+remove()    You know the value but not its index	
+pop()       You know the index and need the value	
+del         You want to delete a range of items	
+pop()       You need to delete the last item quickly	
+del         You need to delete the entire list	

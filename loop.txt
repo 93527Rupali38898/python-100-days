@@ -1,0 +1,15 @@
+For Loop- We prefer for loop when dealing with numbers
+-> We use for loop when the number of iteration is known in advance
+
+While loop: We prefer while loop when we don't know the exact number of iteration 
+-> We want some task to be perfrom till some condition is true 
+as soon as the condition became false we come out of while loop
+
+break - break the entire loop
+continue - skip a iteration
+
+loop with else clause
+we use else with for loop and we use it with while loop also
+it will execute as soon as we come out of loop, but then what is it's need ??
+asking this question because a normal line will also get execute after the loop 
+# Speciality about it is that it only execute if the loop is "NOT" terminated by break

@@ -1,0 +1,57 @@
+A function is a block of reusable code designed to perform a specific task.
+In python a function is defined by the def keyword
+
+Types of Function: 
+1. Built-in Function: These functions are defined and pre-coded in python.
+Example: min(), len(), sum(), type(), range(), dict(), set(), print(), etc.
+2. User-Defined Function: We can create functions to perform specific tasks.
+
+
+Syntax:
+def function_name (paramter):  # if function accept argument
+    function defination
+    return value;   # is we interested to return anything
+
+c=function_name(argument)  
+
+
+Difference Between Parameter and Argument:
+
+|  Aspect	|           Parameter	        |           Argument
+|Definition	| Placeholder in the function	| Actual value passed to the function
+|Defined	| In the function definition	| During the function call
+|Scope	    | Local to the function	        | May come from any part of the program
+|Example	| def func(x, y): 	            | func(10, 20) 
+            | (x, y are parameters)         | (10, 20 are arguments)
+
+
+Types of Argument: 
+1. Positional Argument
+2. Default Argument
+3. Keyword Argument
+4. Variable-Length Argument
+5. Required Argument
+
+1. Positional Argument: value are matched in the order they are passed
+2. Default Argument: Specify a default value to Parameter
+3. Keyword Argument: Parameter are Specified by their parameter name
+4. Variable-Length Argument: Allow Passing any number of Arguement
+5. Required Argument: Argument that are compulsary to pass, otherwise throw "Error".
+
+Varable -Length Argument:
+1. *(a) for positional Argument    [Type of Parameter: "Tuple"]
+2. **(kwards) for Keyword Argument    [Type of Parameter: "Dictionary"]
+
+
+Scope and Lifetime of A Variable:
+1. Local Variable: Defined inside the function 
+-> It is accessible within the function only
+
+2. Global Variable: Defined outside the function
+-> It is Accessible throughtout the function
+
+
+                            Lambda (Anonymous) Function
+It is a single-line function without a function_name
+Syntax: 
+lambda argument:expression

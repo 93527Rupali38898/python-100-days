@@ -1,0 +1,8 @@
+print("yes now")
+english=set(input(""))
+print(english)
+print("yes now")
+french=input("")
+lst=french.split(sep=" ")
+st=set(lst)
+print(st)
