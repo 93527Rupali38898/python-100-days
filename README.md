@@ -23,17 +23,17 @@ This repository reflects consistent practice, concept clarity, and hands-on prob
 
 Some notable programs and mini-projects included in this repository:
 
-* **KBC Quiz Game (`day27_ex_3.py`)**
+* **KBC Quiz Game (`project/day27_ex_3.py`)**
   A CLI-based quiz application inspired by Kaun Banega Crorepati.
   *(Ongoing project – can be extended with more questions and features)*
 
-* **Time-Based Greeting System (`day15_ex_2.py`)**
+* **Time-Based Greeting System (`project/day15_ex_2.py`)**
   Uses system time to dynamically greet the user (Morning/Afternoon/Evening).
 
-* **Encoding/Decoding Script (`encodingGame.py`)**
+* **Encoding/Decoding Script (`project/encodingGame.py`)**
   A custom string transformation program with encoding and decoding logic.
 
-* **Rock-Paper-Scissors Game (`rock-paper-scissor.py`)**
+* **Rock-Paper-Scissors Game (`project/rock-paper-scissor.py`)**
   Classic game implemented using conditional logic and random module.
 
 ---
@@ -54,24 +54,39 @@ Some notable programs and mini-projects included in this repository:
 
 In addition to code, this repository includes `.txt` files for revision and deeper understanding:
 
-* `function.txt` – Functions and argument types
-* `list_method.txt` – List operations and methods
-* `hashable.txt` – Mutable vs Immutable and hashable types
-* Other topic-based notes for quick revision
+* `notes/function.txt` – Functions and argument types
+* `notes/list_method.txt` – List operations and methods
+* `notes/hashable.txt` – Mutable vs Immutable and hashable types
+* `notes/loop.txt` – Loop concepts and examples
+* `notes/string_method.txt` – String methods and usage
 
 ---
 
 ## Repository Structure
 
-```text
+```text id="clean_final"
 python-100-days/
-│── day1.py ... day100.py        # Daily practice programs  
-│── day15_ex_2.py               # Time-based greeting  
-│── day27_ex_3.py               # Quiz program  
-│── encodingGame.py             # Encoding/decoding logic  
-│── rock-paper-scissor.py       # Game implementation  
-│── *.txt                       # Concept notes  
-│── README.md  
+│
+├── practice/                 # Daily practice programs
+│   ├── day1.py
+│   ├── day2.py
+│   └── ...
+│
+├── project/                  # Mini projects
+│   ├── day15_ex_2.py
+│   ├── day27_ex_3.py
+│   ├── encodingGame.py
+│   ├── rock-paper-scissor.py
+│
+├── notes/                    # Concept notes
+│   ├── function.txt
+│   ├── list_method.txt
+│   ├── hashable.txt
+│   ├── loop.txt
+│   ├── string_method.txt
+│
+├── .gitignore
+├── README.md
 ```
 
 ---
@@ -80,15 +95,15 @@ python-100-days/
 
 1. Clone the repository
 
-```bash
+```bash id="run_clean"
 git clone https://github.com/93527Rupali38898/python-100-days.git
 cd python-100-days
 ```
 
 2. Run any Python file
 
-```bash
-python day15_ex_2.py
+```bash id="run_file"
+python project/day15_ex_2.py
 ```
 
 ---
@@ -105,8 +120,8 @@ python day15_ex_2.py
 ## Future Improvements
 
 * Add more structured projects
-* Organize files into folders (practice / notes / projects)
-* Improve existing mini-projects with additional features
+* Enhance existing mini-projects with additional features
+* Organize advanced topics into separate modules
 
 ---
 
