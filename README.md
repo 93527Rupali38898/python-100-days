@@ -103,7 +103,7 @@ cd python-100-days
 2. Run any Python file
 
 ```bash id="run_file"
-python project/day15_ex_2.py
+python project/rock-paper-scissor.py
 ```
 
 ---
