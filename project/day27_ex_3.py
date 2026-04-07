@@ -194,3 +194,27 @@ d) Treaty of Ghent
 Correct Answer: a) Treaty of Versailles
 
 '''
+userName=input("Enter your Name: ")
+print('''
+    Rules of this KBC(hosted by Rupali) are
+    1. You have 2 lifeline:
+    -> change the question
+    -> 50:50
+    2. Each question carry some moeny as follow:
+    1: 100
+    2. 200
+    3. 300
+    4. 1000
+    5. 2000
+    6. 10,000 (save point-1)
+    7. 20,000 
+    8. 40,000
+    9. 50,000
+    10. 75,000
+    11 1,00,000 (save point-2)
+    12. 1,20,000
+    13. 2,00,000
+    14. 3,20,000
+    15, 6,40,000
+    16. 10,00,000 (save point-3)
+    ---------END OF GAME--------''')
