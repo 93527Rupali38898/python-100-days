@@ -28,6 +28,9 @@ for encode in encodingLst:
     # print(decode, end=" ")
     decodingLst.append(decode)
 print("Decoding:", " ".join(decodingLst))
+print("Hope you enjoyed this encoding and decoding game!!")
+feedback=input("Enter you feedback: ")
+print("Thanks for your precious feeddback")
 '''
 NOTE: 
 1. string.ascii_letters: 'abc...xyzABC...XYZ'
