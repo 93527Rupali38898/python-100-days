@@ -121,7 +121,7 @@ python project/rock-paper-scissor.py
 
 * Add more structured projects
 * Enhance existing mini-projects with additional features
-* Organize advanced topics into separate modules
+
 
 ---
 
