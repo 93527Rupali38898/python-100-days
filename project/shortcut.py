@@ -62,7 +62,7 @@ for name in l1:
     if (name.startswith('S')):
         print(f"Hello, {name}!")
         
-Question 3: attempt problem using while loop
+# Question 3: attempt problem using while loop
 num=int(input("Enter the Number for Multiplication table: "))
 i=1
 while(i!=11):
@@ -90,7 +90,7 @@ if (num>0):
 else:
     print("We can't define Negative number as prime or non prime")
 
-Question 5: Write a program to find the sum of first natural number using while loop
+# Question 5: Write a program to find the sum of first natural number using while loop
 num=int(input("Enter the number till you want the sum: "))
 sum=0
 i=1
@@ -102,7 +102,7 @@ if (sum==0):
 else:
     print(f'Sum of first natural number till {num} is {sum}')
 
-Question 6: Write a program to calculate the factorial of a given number using for loop
+# Question 6: Write a program to calculate the factorial of a given number using for loop
 num=int(input("Enter the number you want to factorial: "))
 fact=1
 for i in range(num, 1, -1):
@@ -112,10 +112,10 @@ if (num<0):
 else:
     print(f'Factorail of {num} is: {fact}')
 
-Question 7: Write a profram to print the folowing start patten
-        *
-    *   *   *
-*   *   *    *   *
+# Question 7: Write a profram to print the folowing start patten
+'''        *
+        *   *   *
+    *   *   *    *   *'''
 row=int(input("Enter the number of row you want for hill pattern: "))
 if (row<=0):
     print("Invalid number of row!!!!")
@@ -130,10 +130,10 @@ else:
         print()
             
     
-Question 8: Write a program to print the followinf start Pattern
-*
-* *
-* * *
+# Question 8: Write a program to print the followinf start Pattern
+'''*
+    * *
+    * * *'''
 row=int(input("Enter the number of row for increasing triangle: "))
 if (row<=0):
     print("Invalid number of row")
@@ -143,10 +143,10 @@ else:
             print('*', end=' ')
         print()
 
-Question 9: Write a program to print the followinf start Pattern
-* * *
-*   *
-* * *
+# Question 9: Write a program to print the followinf start Pattern
+'''* * *
+    *   *
+    * * *'''
 row=int(input("Enter the number of row: "))
 if (row<=0):
     print("Invalid number of row")
@@ -159,8 +159,7 @@ else:
                 print(" ", end=" ")
         print()  
 
-Question 10: Write a program to print multiplication table of n using for loop 
-in reversed order
+# Question 10: Write a program to print multiplication table of n using for loop in reversed order
 num=int(input("Enter the number for reverse multiplication table: "))
 if (num<=0):
     print('Invalid number for multiplication table')
