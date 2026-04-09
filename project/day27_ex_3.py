@@ -225,12 +225,18 @@ QuestionOption={
     "1. Who is known as the 'Father of the Nation' in India?":["a) Bhagat Singh","b) Mahatma Gandhi","c) Subhas Chandra Bose", "d) Jawaharlal Nehru"],
     "2. Which planet is known as the 'Red Planet'?":["a) Mars", "b) Jupiter", "c) Venus", "d) Saturn"],
     "3. Who was the first woman to receive a Nobel Prize?":["a) Marie Curie", "b) Mother Teresa", "c) Rosalind Franklin", "d) Ada Lovelace"],
-    " 4. What is the largest mammal in the world?":["a) Elephant", "b) Blue Whale", "c) Giraffe", "d) Hippopotamus"], 
+    "4. What is the largest mammal in the world?":["a) Elephant", "b) Blue Whale", "c) Giraffe", "d) Hippopotamus"], 
     "5. Which river is the longest in the world?":["a) Amazon", "b) Yangtze", "c) Nile", "d) Mississippi"], 
     "6. Which gas is most abundant in the Earth's atmosphere?":["a) Oxygen", "b) Carbon Dioxide", "c) Nitrogen", "d) Argon"], 
-    
-
-    
-
-    
+    "7. What is the study of plants called?":["a) Zoology", "b) Botany", "c) Ecology", "d) Entomology"], 
+    "8. Which instrument is used to measure atmospheric pressure?":["a) Barometer", "b) Thermometer", "c) Hygrometer", "d) Anemometer"],
+    "9. In which year did World War II end?":["a) 1944", "b) 1945", "c) 1946", "d) 1947"],
+    "10. Who wrote the famous book 'A Brief History of Time'?":["a) Albert Einstein", "b) Stephen Hawking", "c) Isaac Newton", "d) Galileo Galilei"], 
+    "11. Which is the densest planet in the Solar System?":["a) Jupiter", "b) Earth", "c) Saturn", "d) Venus"], 
+    "12. Who is the author of the epic Mahabharata?":["a) Valmiki", "b) Kalidasa", "c) Ved Vyasa", 
+    "d) Tulsidas"], 
+    "13. What is the largest desert in the world?":["a) Gobi Desert", "b) Arabian Desert", "c) Sahara Desert", "d) Antarctic Desert"], 
+    "14. What is the approximate age of the Earth?":["a) 4.5 billion years", "b) 3.5 billion years", "c) 5.5 billion years", "d) 6.5 billion years"], 
+    "15. Which ancient civilization built the Machu Picchu?":["a) Aztec", "b) Maya", "c) Inca", "d) Olmec"],
+    "16. Which country is the largest producer of saffron?":["a) Iran", "b) India", "c) Afghanistan", "d) Spain"] 
 }
