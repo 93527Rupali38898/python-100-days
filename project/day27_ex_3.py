@@ -220,3 +220,17 @@ print('''
     ---------END OF GAME--------
     3. You can quit any point of time to avoid loosing money!!
     Can we start with Game??''')
+userName=input("Enter your Name: ")
+QuestionOption={
+    "1. Who is known as the 'Father of the Nation' in India?":["a) Bhagat Singh","b) Mahatma Gandhi","c) Subhas Chandra Bose", "d) Jawaharlal Nehru"],
+    "2. Which planet is known as the 'Red Planet'?":["a) Mars", "b) Jupiter", "c) Venus", "d) Saturn"],
+    "3. Who was the first woman to receive a Nobel Prize?":["a) Marie Curie", "b) Mother Teresa", "c) Rosalind Franklin", "d) Ada Lovelace"],
+    " 4. What is the largest mammal in the world?":["a) Elephant", "b) Blue Whale", "c) Giraffe", "d) Hippopotamus"], 
+    "5. Which river is the longest in the world?":["a) Amazon", "b) Yangtze", "c) Nile", "d) Mississippi"], 
+    "6. Which gas is most abundant in the Earth's atmosphere?":["a) Oxygen", "b) Carbon Dioxide", "c) Nitrogen", "d) Argon"], 
+    
+
+    
+
+    
+}
