@@ -217,4 +217,6 @@ print('''
     14. 3,20,000
     15, 6,40,000git
     16. 10,00,000 (save point-3)
-    ---------END OF GAME--------''')
+    ---------END OF GAME--------
+    3. You can quit any point of time to avoid loosing money!!
+    Can we start with Game??''')
