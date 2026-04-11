@@ -240,3 +240,5 @@ QuestionOption={
     "15. Which ancient civilization built the Machu Picchu?":["a) Aztec", "b) Maya", "c) Inca", "d) Olmec"],
     "16. Which country is the largest producer of saffron?":["a) Iran", "b) India", "c) Afghanistan", "d) Spain"] 
 }
+
+answer=["b) Mahatma Gandhi", "a) Mars", "a) Marie Curie", "b) Blue Whale", "c) Nile", "c) Nitrogen", "b) Botany", "a) Barometer", "b) 1945", "b) Stephen Hawking", "b) Earth", "c) Ved Vyasa", "d) Antarctic Desert", "a) 4.5 billion years", "c) Inca", "a) Iran"]
